@@ -24,7 +24,7 @@ HUGGINGFACE_DATASET_MAPPING = {
     'iraqi': 'otozz/iraqi',
     'levantine': 'otozz/levantine',
     'maghrebi': 'otozz/maghrebi',
-    'msa': 'otozz/MSA'
+    'msa': 'otozz/MSA_train_set'
 }
 
 def load_and_preprocess_dataset(dialect, processor):
