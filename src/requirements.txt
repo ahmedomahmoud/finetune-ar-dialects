@@ -1,0 +1,40 @@
+# Core ML and Deep Learning - Kaggle Optimized
+torch>=1.12.0
+transformers==4.47.0
+datasets[audio]==3.6.0 
+accelerate>=0.20.0
+tokenizers>=0.13.0
+
+# Parameter-Efficient Fine-Tuning (PEFT)
+peft>=0.5.0
+bitsandbytes==0.45.2
+
+# Audio Processing
+librosa>=0.9.0
+soundfile>=0.12.0
+scipy>=1.9.0
+
+# Evaluation Metrics
+evaluate>=0.4.0
+jiwer>=2.5.0
+
+# Data Science & Visualization for Publication
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Development & Monitoring
+tensorboard>=2.10.0
+tqdm>=4.64.0
+wandb>=0.13.0
+
+# Notebook Support
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Utility Libraries
+psutil>=5.9.0
+
+# Optional: Additional experiment tracking (uncomment if needed)
+# mlflow>=2.0.0
